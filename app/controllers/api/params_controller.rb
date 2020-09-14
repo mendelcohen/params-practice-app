@@ -1,5 +1,5 @@
 class Api::ParamsController < ApplicationController
-  def caps
+  def upcase
     @phrase = params["phrase"].upcase
     render "caps.json.jb"
   end
